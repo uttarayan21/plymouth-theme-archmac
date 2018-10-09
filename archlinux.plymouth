@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Archlinux Plymouth
+Description=A Plymouth of Archlinux
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/archlinux/images
+ScriptFile=/usr/share/plymouth/themes/archlinux/archlinux.script
