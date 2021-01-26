@@ -40,7 +40,7 @@ package() {
     install -Dm644 archmac.script   "${_themedir}/archmac.script"
     install -Ddm755 images           "${_themedir}/images"
     for image in images/*.png; do 
-        install -Dm644 "${image}"   "${_themedir}/images/${image}"
+        install -Dm644 "${image}"   "${_themedir}/${image}"
     done
 
 }
