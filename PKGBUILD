@@ -1,8 +1,8 @@
 # Maintainer: Uttarayan Mondal
 
 pkgname=plymouth-theme-archmac
-_pkgname=plymouth_archlinux
-pkgver=1.r24232a9.
+_pkgname=plymouth-theme-archmac
+pkgver=3.r6313793
 pkgrel=1
 epoch=1
 pkgdesc="Mac like boot theme with Archlinux logo for plymouth"
@@ -38,7 +38,7 @@ package() {
     _themedir="${pkgdir}/usr/share/plymouth/themes/archmac"
 	install -Dm644 archmac.plymouth "${_themedir}/archmac.plymouth"
     install -Dm644 archmac.script   "${_themedir}/archmac.script"
-    install -Dm755 images           "${_themedir}/images"
+    install -Ddm755 images           "${_themedir}/images"
     for image in images/*.png; do 
         install -Dm644 "${image}"   "${_themedir}/images/${image}"
     done
