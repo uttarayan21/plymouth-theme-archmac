@@ -1,5 +1,15 @@
-This is not my creation I basically modified it for my personal use
+This theme is forked from [here](https://www.gnome-look.org/p/1009320).
 
-I got the original theme from [here](https://www.gnome-look.org/p/1009320) 
+Changed the logo to archlinux.
 
-Also dont forget to rename the folder from plymouth_archlinux to archlinux and then copy to /usr/share/plymouth/themes/
+To install in archlinux
+
+```bash
+git clone https://github.com/uttarayan21/plymouth-theme-archmac
+
+cd plymouth-theme-archmac
+
+git checkout PKGBUILD
+
+makepkg -si
+```

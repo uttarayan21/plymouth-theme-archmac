@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Archlinux Mac Plymouth
+Description=A plymouth theme for archlinux which looks like macos boot animation
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/archmac/images
+ScriptFile=/usr/share/plymouth/themes/archmac/archmac.script
