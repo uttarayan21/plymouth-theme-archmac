@@ -6,14 +6,14 @@ pkgver=1.r24232a9.
 pkgrel=1
 epoch=1
 pkgdesc="Mac like boot theme with Archlinux logo for plymouth"
-url='https://github.com/uttarayan21/plymouth_archlinux'
+url='https://github.com/uttarayan21/plymouth-theme-archmac'
 arch=('i686' 'x86_64')
 license=('MIT')
 options=('zipman')
 depends=('libxft')
 makedepends=( 'libxext' 'git')
 optdepends=()
-source=('git://github.com/uttarayan21/plymouth_archlinux')
+source=('git://github.com/uttarayan21/plymouth-theme-archmac')
 sha1sums=('SKIP')
 
 provides=("${_pkgname}")
